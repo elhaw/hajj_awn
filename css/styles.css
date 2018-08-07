@@ -1,0 +1,1389 @@
+@font-face {
+  font-family: Bahij-ExtraBold;
+  src: url(../fonts/Bahij_TheSansArabic-ExtraBold.ttf)
+}
+
+@font-face {
+  font-family: Bahij-SemiBold;
+  src: url(../fonts/Bahij_TheSansArabic-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: Bahij-SemiLight;
+  src: url(../fonts/Bahij_TheSansArabic-SemiLight.ttf)
+}
+
+@font-face {
+  font-family: Bahij-Plain;
+  src: url(../fonts/Bahij_TheSansArabic-Plain.ttf)
+}
+
+*,
+* button:focus {
+  outline: 0
+}
+
+body {
+  font-family: Bahij-Plain;
+  text-decoration: none;
+  direction: rtl
+}
+
+body a:hover {
+  text-decoration: none
+}
+
+body a:focus {
+  outline: 0
+}
+
+body ul {
+  list-style-type: none
+}
+
+.top-footer {
+  background-color: #ededed;
+  font-family: Cairo-Regular;
+  font-size: 16px;
+}
+
+.top-footer a {
+  color: black;
+}
+
+.cart-selected-products {
+  border-top: 3px solid #226365;
+  border-bottom: 3px solid #226466;
+  border-radius: 5px;
+  font-size: 12px;
+  width: 270px;
+}
+
+header {
+  object-fit: contain;
+  background-color: #f8f8f8;
+  /* position: fixed; */
+  /* top:0;
+    left:0;
+    right:0;
+    z-index: 10; */
+}
+
+.currency-change {
+  cursor: pointer;
+}
+
+.awn-logo {
+  width: 70px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  transition: color .5s ease-in-out;
+  font-family: Bahij-SemiBold
+}
+
+.main-menu>li {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  transition: all .5s ease-in-out
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #128c0b;
+}
+
+.navbar-light .navbar-nav .nav-item:hover a {
+  color: #128c0b;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.banner {
+  background-image: url(../images/haj-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.page-contact {
+  padding-bottom: 6rem;
+  padding-top: 3rem
+}
+
+.banner-image {
+  position: relative;
+  z-index: 111;
+  left: 12ch;
+}
+
+.page-cloud {
+  background-image: url(../images/cloud-bg.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-size: contain;
+  -webkit-animation: backgroundScroll 15s linear infinite;
+  animation: backgroundScroll 15s linear infinite
+}
+
+.after-header-text {
+  padding-bottom: 3em;
+  padding-top: 3em;
+  position: relative;
+  z-index: 111
+}
+
+.after-header-text h1 {
+  color: #fff;
+  font-size: 5rem;
+  font-family: indielabs-Bold
+}
+
+.after-header-text .paragraph {
+  margin-bottom: 56px;
+  color: #fff;
+  margin-top: 27px
+}
+
+.service-image-dring {
+  width: 2.5rem;
+}
+
+.service-hidden-block-custom {
+  padding: 1rem;
+  cursor: pointer;
+}
+.service-block {
+  color:#022402;
+}
+
+.service-hidden-block-custom p a {
+  color:white;
+  display: block;
+  font-size: 1rem;
+  background-color: #287939b3;
+  width: 38%;
+  padding: .5rem .9rem;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 1rem;
+  transition: color .7s,
+              background-color .7s;
+
+}
+.continue-link{
+  color:#287939b3;
+}
+
+.services-page-intenal .navbar-fixed {
+  position: unset;
+}
+
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.48);
+  width: 73%;
+  border-radius: 24px;
+  padding: 2%;
+  height: 50%;
+  margin: auto;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.banner-title {
+  color: white;
+}
+
+.nave-item-service a.active:hover {
+  background-color: green;
+  color: white;
+}
+
+ul.tab-list li a {
+  background: none repeat scroll 0 0 #F5F5F5;
+  display: block;
+  margin: 0;
+  padding: .5rem 1rem;
+  text-decoration: none;
+  width: auto;
+  color: #303030;
+  border: 1px transparent;
+  border-radius: 1rem;
+  font-size: .9rem;
+}
+
+ul.tab-list li a.active {
+  border: 1px solid;
+  color: #07ab07;
+  padding: .5rem 1rem;
+  font-size: .9rem;
+  transition: color .3s, background-color .7s;
+}
+
+.about-our-company {
+  background-color: #e6e0e0;
+  padding: 9rem;
+}
+
+.banner-text {
+  color: white;
+}
+
+.tab-list-services {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.tab-list-services a {
+  color: #101010;
+}
+
+.banner-desc {
+  margin-top: 3rem;
+  width: 80%
+}
+
+.banner-content-wrapper {
+  align-self: center
+}
+.but-services{
+  padding: .4rem 3rem;
+}
+.page-services .banner-content {
+  margin-bottom: 6rem
+}
+
+.services {
+  text-align: center
+}
+
+.gallery-content {
+  padding-top: 5rem;
+  background-color: #d2c8c8;
+}
+
+.internal-page .awn-logo {
+  width: 12rem;
+}
+
+.internal-page header {
+  background: #fff;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 1px -1px 10px 0px rgb(63, 113, 69);
+}
+.cart-form-start {
+  border: 1px solid green;
+  border-radius: 5px;
+  padding: 1rem;
+}
+.list-cart-products {
+  border: 1px solid green;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.cart-page {
+  background-color: #e4efe5ba;
+  padding: 2rem;
+  box-shadow: 1px -1px 11px 2px rgba(0, 0, 0, 0.12);
+}
+.cart-continue-btn{
+  box-shadow: inset 1px -1px 10px 0px rgb(63, 113, 69);
+  background-color:green;
+  transition:  background-color .6s;
+
+}
+
+.cart-continue-btn:hover {
+  background-color:rgb(4, 61, 4);
+
+}
+
+.products-number-badge {
+  background-color: green;
+}
+
+.cart-padge-internal .navbar-fixed {
+  position: unset;
+}
+.internal-page .page-footer {
+  position: relative;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+
+footer a {
+  color: #fff;
+  transition: all .5s ease-in-out
+}
+
+.shopping-cart-icon {
+  color: green;
+}
+
+.register {
+  color: green;
+}
+
+.contact-info {
+  padding-right: 0
+}
+
+.mailing-address>p {
+  margin-bottom: 0;
+  margin-top: 1.5rem
+}
+
+.registerNewsletter {
+  background-color: rgb(34, 103, 32);
+  color: white;
+}
+
+.newsletter-title {
+  margin-bottom: 3rem;
+  font-family: Bahij-ExtraBold
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px
+}
+
+.contact-info>li {
+  margin-bottom: 1.5rem
+}
+
+.copy-rights-section {
+  background: linear-gradient(to right, #256a6d, #1f5e5f);
+  padding: 1rem 0;
+  color: #fff;
+}
+
+.copy-rights {
+  margin-bottom: 0;
+  margin-top: 7px
+}
+
+.page-links {
+  width: 63%;
+  margin-right: auto;
+  text-align: start
+}
+
+.page-links>li>a {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  color: black;
+}
+
+.head-details-title {
+  font-size: 2rem;
+  text-align: center;
+  color: #4a4a4a;
+  font-family: Bahij-SemiBold
+}
+
+.email-form-group>input,
+.message-form-group>input,
+.name-form-group>input {
+  padding: 1rem
+}
+
+.about-us {
+  margin-bottom: 3rem;
+  font-family: Bahij-ExtraBold
+}
+
+.quick-links {
+  margin-bottom: 3rem;
+  font-family: Bahij-ExtraBold
+}
+
+.message-form-group>.send-btn-contact {
+  background-image: linear-gradient(143deg, #1b7786, #010404);
+  border: solid 1px #979797;
+  padding: .4rem 4rem;
+  font-size: 17px;
+  border: 1px solid green;
+}
+
+.send-btn-contact {
+  color: #fff;
+  font-size: 20px
+}
+
+.form-control {
+  border-radius: 0;
+  line-height: 2rem;
+}
+
+.form-wrapper {
+  background-image: url(../images/newsletter-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3rem 5rem;
+  width: 86%;
+  margin: auto
+}
+
+.fab {
+  padding: .65rem;
+  color: #fff;
+  border-radius: 50%
+}
+
+.about-us-desc {
+  line-height: 2.5
+}
+
+
+
+.page-footer {
+  position: relative;
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+}
+
+.page-footer a {
+  color: black;
+}
+
+.list-footer li {
+  line-height: 2rem;
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope {
+  color: #226720;
+}
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-center:before {
+  bottom: 0;
+}
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
+  left: 0;
+  right: 0;
+}
+
+/* services */
+
+.soqya-servce-btn {
+  font-size: 1.5rem;
+  color: #064806;
+}
+
+.mecca-service-accorion {
+  margin: 0 0 30px 0;
+  padding: 15px;
+  background: #FFF;
+  border-top: 2px solid #53b353;
+  ;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.mecca-service-accorion .card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(152, 226, 104, 0.28);
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+}
+
+.mecca-service-accorion .card-header button {
+  font-size: 1.3rem;
+  color: #064806;
+}
+
+table td:first-child {
+  width: 30%;
+  background: #7078807a;
+}
+
+.custom-meal-select {
+  border: unset;
+  padding-right: 43%;
+}
+
+select.custom-select.custom-meal-select {
+  box-shadow: unset;
+}
+
+table td:first-child {
+  width: 30%;
+  background: #f5f5f5f0;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.service-table tbody>tr:hover {
+  background-color: #ebfdec !important;
+}
+
+.hvr-underline-from-center:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 51%;
+  right: 51%;
+  bottom: 0;
+  background: #128c0b;
+  height: 4px;
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+/* login page */
+
+.login-title {
+  color: green;
+  margin-bottom: 4rem;
+}
+
+.login-form {
+  padding: 4rem;
+  box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
+  border: 1px solid #dbe2e8;
+  background-color: white;
+  margin-bottom: 3rem;
+}
+
+.login-btn {
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  background-color: #6ac56a;
+  color: white;
+  transition: background-color .7s;
+}
+
+.forgetPassword {
+  color: green;
+}
+
+.form-control:focus {
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 1px solid #dbe2e8;
+  font-size: 14px;
+  box-shadow: 0 2px 2px 0 rgba(46, 60, 73, 0.05);
+  border-radius: 2px;
+  border-color: #6ac56a;
+  border-radius: 2px;
+}
+
+.login-page {
+  background-color: #dbe2e8;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.login-btn:hover {
+  background-color: #0b6b0b;
+}
+
+/* register page */
+
+.register {
+  background: #fafafa;
+}
+
+.register-form {
+  background: #fff;
+  padding: 7em 11em;
+  border: solid .5px #979797;
+  margin-bottom: 5em;
+  margin-top: 3rem;
+}
+
+.internal-page .navbar-fixed {
+  position: unset;
+}
+
+#registerTab {
+  border: 0;
+  flex-wrap: nowrap;
+  margin-bottom: 65px;
+}
+
+#registerTab li.nav-item {
+  border: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.companyRegisterBtn {
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  background-color: #6ac56a;
+  color: white;
+  transition: background-color .7s;
+  padding: 1rem;
+}
+
+.companyRegisterBtn:hover {
+  background-color: #0b6b0b;
+}
+
+.indvidualRegisterBtn {
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px rgba(0, 0, 0, 0.1);
+  background-color: #6ac56a;
+  color: white;
+  transition: background-color .7s;
+  padding: 1rem;
+}
+
+.indvidualRegisterBtn:hover {
+  background-color: #0b6b0b;
+}
+.fa-hands-helping{
+  color:green;
+}
+#registerTab li.nav-item a.nav-link.active {
+  background: #4CAF50;
+  transition: all .5s ease-in-out;
+  border: 1px solid transparent;
+  font-size: 1.4rem;
+  color: white;
+}
+
+#registerTab li.nav-item a.nav-link {
+  background: #b7e2b7;
+  color: black;
+  border-radius: 0;
+  padding: 15px;
+  font-size: 19px;
+  border: 1px solid green;
+  transition: all .5s ease-in-out;
+  font-family: indielabs-Bold;
+  font-size: 1.4rem;
+}
+
+.register-form .form-group {
+  margin-bottom: 40px;
+}
+
+.send-file .custom-file-label {
+  border-radius: 0;
+  height: 50px;
+  padding-top: 14px;
+}
+
+.send-file {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.custom-file-input {
+  cursor: pointer;
+}
+
+.send-file .custom-file-label:after {
+  background: url(../images/upload-icon.png) no-repeat;
+  content: '';
+  width: 74px;
+  background-size: 42%;
+  background-position: center 50%;
+  border-right: 0;
+  height: 100%;
+}
+
+#valueInputFile {
+  border: 0;
+  cursor: unset;
+  position: relative;
+  z-index: -1;
+  font-size: 15px;
+  width: 100%;
+}
+
+.custom-file-label::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  display: block;
+  height: calc(calc(2.25rem + 2px) - 1px * 2);
+  padding: .375rem .75rem;
+  line-height: 1.5;
+  color: #495057;
+  content: "Browse";
+  background-color: #e9ecef;
+  border-right: 1px solid #ced4da;
+  border-radius: .25rem 0 0 .25rem;
+}
+
+.contact-page form label {
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  pointer-events: none;
+  right: 5px;
+  top: 10px;
+  transition: .2s ease all;
+  -moz-transition: .2s ease all;
+  -webkit-transition: .2s ease all;
+}
+
+/*------------------------------------------------------------------
+[Master SASS Stylesheet]
+
+Project  :  klinik Template
+Version  :  1.2
+Author   :  Pepdev
+Website  :  www.pepdev.com
+Theme Color : Blue
+-------------------------------------------------------------------*/
+
+/**
+* Table of Contents :
+* 1.0 - BASIC CSS START
+* 2.0 -  DEFAULT CSS START
+*        2.1 - OVERRIDING CSS START
+*        2.2 - COMMON CSS START
+*        2.3 - LAYOUT CSS START
+*        2.4 - FONT SIZE CSS START
+*        2.5 - COLOR CSS START
+*        2.6 - BUTTON CSS START
+*        2.7 - THEME BLOCK CSS START
+*        2.8 - THEME ACCORDION CSS START
+*        2.9 - THEME DROPCAP CSS START
+*        2.10 - THEME CATEGORY LIST CSS START
+*        2.11 - THEME MATERIAL CARD CSS START
+*        2.12 - THEME TAG CSS START
+*        2.13 - THEME PAGINATION CSS START
+*        2.14 - THEME FLEXSLIDER CSS START
+*        2.15 - SOCIAL BUTTON CSS START
+*        2.16 - THEME DROPDOWN CSS START
+*        2.17 - THEME TABLE CSS START
+*        2.18 - THEME IMAGE CSS START
+*        2.19 - THEME QUOTE CSS START
+*        2.20 - PAGE TITLE CSS START
+*        2.21 - NOT FOUND PAGE CSS START
+* 3.0 -  HEADER CSS START   
+* 4.0 -  HEADER 2 CSS START
+* 5.0 -  HOME PAGE CSS START
+*        5.1 - BANNER CSS START
+*        5.2 - HOME SERVICE CSS START
+*        5.3 - HOME ABOUT CSS START
+*        5.4 - HOME DOCTOR SLIDER CSS START
+*        5.5 - HOME FEATURE CSS START
+*        5.6 - HOME TESTIMONIAL CSS START
+* 6.0 -  SERVICE PAGE CSS START
+*        6.1 - SERVICE CARD CSS START
+*        6.1 - FEATURE CSS START
+* 7.0 -  DOCTOR PAGE CSS START
+*        7.1 - DOCTOR CARD CSS START
+*        7.2 - DEPARTMENT CSS START
+* 8.0 -  ABOUT PAGE CSS START
+* 9.0 -  CONTACT PAGE CSS START
+*        9.1 - CONTACT CSS START
+*        9.2 - MAP CSS START
+* 10.0 - LOGIN PAGE CSS START
+* 11.0 - FORM INPUT CSS START
+* 12.0 - MYAPPOINTMENT PAGE CSS START
+* 13.0 - GALLERY PAGE CSS START
+* 14.0 - BLOGS LIST PAGE CSS START
+* 15.0 - BLOG PAGE CSS START
+* 16.0 - FOOTER CSS START
+*        16.1 - EMERGENCY LAYER CSS START
+*        16.2 - MAIN FOOTER CSS START
+*        16.3 - FOOTER COPYRIGHT CSS START
+* 17.0 - MEDIA QUERIES START
+
+
+[Color codes]
+
+Background: #FCFCFC ( Body Color )
+Content:    #555 ( Light black )
+Content:    #777 ( Lighter black )
+Content:    #DDD ( Lighter White )
+Content:    #EEE ( Light White )
+Header h1:  #333 ( Black )
+Header h2:  #555 ( Light Black )
+Footer:     $footerColor ( Check 'sass/partials/variable.scss' file )
+a (active): $color-primary-0 ( Check 'sass/partials/variable.scss' file)
+Primary Color: $color-primary-0 ( Check 'sass/partials/variable.scss' file )
+Blue Color = #32ce46 ( Blue Theme Color )
+Green Color = #54C798 ( Green Theme Color )
+Orange Color = #EFA752 ( Orange Theme Color )
+Purple Color = #A675D4 ( Purple Theme Color )
+
+[Typography]
+
+Body copy:  14px/ font-family: "Montserrat", sans-serif;
+h1, h2, h3, h4, h5, h6: 36px/ font-family: "lato", sans-serif;
+Sidebar heading:  font-family: "lato", sans-serif;
+Input, textarea:  font-family: "Montserrat", sans-serif;
+
+-------------------------------------------------------------------*/
+
+/************************************************
+[ 1.0 - BASIC CSS START ] ***********************
+*************************************************/
+
+/**************************************************
+  [ 2.0 - DEFAULT CSS START ] ***********************
+  ***************************************************/
+
+/* [ 2.1 OVERRIDING CSS START ] */
+
+.mdl-button,
+.mdl-textfield__input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.mdl-textfield__label::after,
+.mdl-selectfield__label::after {
+  background-color: #32ce46;
+}
+
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,
+.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,
+.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label,
+.mdl-selectfield--floating-label.is-focused .mdl-selectfield__label,
+.mdl-selectfield--floating-label.is-dirty .mdl-selectfield__label {
+  color: #32ce46;
+}
+
+.mdl-card.mdl-shadow--2dp {
+  width: 100%;
+}
+
+.mdl-card__title {
+  height: 300px;
+}
+
+.img-thumbnail,
+.modal-content {
+  border-radius: 2px;
+}
+
+.fc th {
+  background: #32ce46;
+}
+
+.fc-state-down,
+.fc-state-active {
+  color: #FFF;
+  background: #32ce46;
+}
+
+.mdl-data-table {
+  width: 100%;
+}
+
+.alert {
+  font-size: 13px;
+  letter-spacing: .5px;
+  text-align: left;
+}
+
+.card-title {
+  margin-top: 0;
+}
+.service-block-picture{cursor: pointer;
+}
+
+.layer-wrapper,
+.service-block-hover,
+.service-block-picture img,
+.service-block-picture::before,
+.service-block-hidden{
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.page-ttl::before,
+.parallax-background::before {
+  background: rgba(0, 0, 0, 0.8);
+  background: linear-gradient(-90deg, rgba(2, 167, 182, 0.9), rgba(1, 82, 89, 0.9));
+}
+
+.service-block,
+.form-container,
+.theme-table-container,
+.map-address,
+.hm-feature-block-1 {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tbl {
+  display: table;
+  width: 100%;
+}
+
+.tbl-row {
+  display: table-row;
+}
+
+.tbl-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* [ 2.3 LAYOUT CSS START ] */
+
+.layer-service {
+  position: relative;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.layer-tablet {
+  width: 992px;
+  margin: 0 auto;
+}
+
+.layer-mobile {
+  width: 448px;
+  margin: 0 auto;
+}
+
+.layer-fixed {
+  position: relative;
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.layer-wrapper {
+  position: relative;
+  width: 100%;
+  padding: 50px 0 50px 0;
+  margin: 0;
+}
+
+.layer-bottom-0 {
+  padding: 50px 0 0 0;
+}
+
+.layer-bottom-10 {
+  padding: 50px 0 20px 0;
+}
+
+.colored-background {
+  width: 100%;
+  background: linear-gradient(-90deg, rgba(2, 167, 182, 0.9), rgba(1, 82, 89, 0.9));
+}
+
+.parallax-background {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.parallax-background-1 {
+  background-image: url(../uploads/background-1.jpg);
+}
+
+.parallax-background-2 {
+  background-image: url(../uploads/background-2.jpg);
+}
+
+.parallax-background-3 {
+  background-image: url(../uploads/background-3.jpg);
+}
+
+.layer-ttl {
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.layer-ttl h3 {
+  position: relative;
+  font-size: 32px;
+  font-weight: 500;
+  color: #015259;
+  line-height: 1;
+  display: inline-block;
+  margin: 0;
+  padding: 12px 25px 15px 25px;
+  background: #EBFCFD;
+  border-bottom: 2px solid #32ce46;
+  border-radius: 4px;
+}
+
+.layer-ttl-white h3 {
+  color: #EBFCFD;
+  background: #015259;
+  border-bottom: 2px solid #EBFCFD;
+}
+
+.sub-ttl {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  color: #555;
+  text-align: center;
+  padding: 0 0 15px 0;
+  margin: 0 0 20px 0;
+}
+
+.sub-ttl::before {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  right: 0;
+  width: 30px;
+  height: 2px;
+  margin: 0 auto;
+  background: #32ce46;
+}
+
+.sub-ttl::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 60px;
+  height: 2px;
+  margin: 0 auto;
+  background: #32ce46;
+}
+
+.sub-ttl-white {
+  color: #FFF;
+}
+
+.layer-container {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+
+.col-inset-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sidebar {
+  padding: 10px;
+  margin: 0 0 30px 0;
+  border: 1px solid #CCC;
+  border-top: 2px solid #CCC;
+}
+
+.rounded {
+  border-radius: 50% !important;
+}
+
+/* [ 2.4 FONT SIZE CSS START ] */
+
+.font-12 {
+  font-size: 12px !important;
+}
+
+.font-13 {
+  font-size: 13px !important;
+}
+
+.font-14 {
+  font-size: 14px !important;
+}
+
+.font-16 {
+  font-size: 16px !important;
+}
+
+.font-18 {
+  font-size: 18px !important;
+}
+
+.font-20 {
+  font-size: 20px !important;
+}
+
+.font-24 {
+  font-size: 24px !important;
+}
+
+.font-28 {
+  font-size: 28px !important;
+}
+
+.font-30 {
+  font-size: 30px !important;
+}
+
+.font-36 {
+  font-size: 36px !important;
+}
+
+.font-400 {
+  font-weight: 400;
+}
+
+.font-500 {
+  font-weight: 500;
+}
+
+/* [ 2.5 COLOR CSS START ] */
+
+.primary-color {
+  color: #32ce46 !important;
+}
+
+.color-blue {
+  color: #32ce46 !important;
+}
+
+/* [ 2.7 THEME BLOCK CSS START ] */
+
+.service-block {
+  position: relative;
+  width: 100%;
+  padding: 4px;
+  margin: 0 0 30px 0;
+  text-align: center;
+  background: #FFF;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.service-block:hover .service-block-hidden {
+  opacity: 1;
+  z-index: 2;
+  bottom: 0;
+}
+
+.service-block:hover .service-block-data a {
+  color: #32ce46;
+}
+
+.service-block-hover:hover .service-block-picture img {
+  opacity: 0.7;
+  -webkit-transform: scale(1.2) rotate(6deg);
+  -moz-transform: scale(1.2) rotate(6deg);
+  -ms-transform: scale(1.2) rotate(6deg);
+  -o-transform: scale(1.2) rotate(6deg);
+  transform: scale(1.2) rotate(6deg);
+}
+
+.service-block-hover:hover .service-block-picture:before {
+  background: linear-gradient(-90deg, rgba(2, 167, 182, 0.9), rgba(1, 82, 89, 0.9));
+}
+
+.service-block-picture {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.service-block-picture img {
+  width: 100%;
+  height: 17rem;
+}
+
+.service-block-picture::before,
+.theme-img::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.service-block-data {
+  position: relative;
+  padding: 15px;
+}
+
+.service-block-data h4 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0 5px 0;
+}
+
+.service-block-data h4 a {
+  color: #555;
+}
+
+.service-block-data p {
+  margin: 0;
+}
+
+.service-block-data p a {
+  color: #015259;
+}
+
+.service-block-hidden {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  border: 1px solid #EEE;
+  opacity: 0;
+  z-index: -2;
+}
+
+.service-block-padding {
+  padding: 10px;
+}
+
+/* [ 2.13 THEME PAGINATION CSS START ] */
+
+.theme-pagination {
+  padding: 0;
+  margin: 0;
+}
+
+.theme-pagination li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.theme-pagination li a {
+  display: block;
+  padding: 10px 15px;
+  font-size: 14px;
+  background: #FFF;
+  border-radius: 2px;
+  border: 1px solid #32ce46;
+}
+
+.theme-pagination li a:hover {
+  color: #FFF;
+  background: #32ce46;
+}
+
+.theme-pagination li a.active {
+  color: #FFF;
+  background: #11711d;
+}
+
+.theme-pagination-default li a {
+  border: 1px solid #DDD;
+}
+
+.theme-pagination-default li a:hover {
+  color: #32ce46;
+  background: transparent;
+}
+
+.theme-pagination-default li a.active {
+  color: #32ce46;
+  background: transparent;
+}
+
+.theme-pagination-1 li a {
+  color: #FFF;
+  background: #32ce46;
+}
+
+.theme-pagination-1 li a:hover {
+  color: #32ce46;
+  background: #FFF;
+}
+
+.theme-pagination-1 li a.active {
+  color: #32ce46;
+  background: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-content{
+    position:unset;
+    margin-top:10rem;
+  }
+
+  .about-our-company {
+    padding: 1rem;
+}
+
+.gallery-content {
+  padding-top: 1rem;
+}
+#profile-tab {
+  margin-top: .3rem;
+  justify-content: flex-end;
+}
+.form-wrapper {
+  padding: 1rem;
+}
+.register-form {
+  padding: 12px;
+  border-radius: 9px;
+}
+}
